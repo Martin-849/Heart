@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    background-color: #FBFBFB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    height: 70px;
+    width: 126px;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+    margin-right: 25px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.primary-btn {
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    border: none;
+    background-color: #07356A;
+    color: white;
+}
+
+.banner {
+    height: 700px;
+    background-image: url(../Home/assets/Background/Banner\ Background.png);
+    background-size: cover;
+}
+
+.banner-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    align-content: space-around;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+}
+
+.appointment-btn {
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 500;
+    background-color: #07356A;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.enquiry-btn {
+    font-size: 16px;
+    background: transparent;
+    font-weight: 500;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.benifits {
+    background-color: #F5F5F5;
+}
+
+.cards {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 367px;
+    height: 120px;
+    display: flex;
+    margin-right: 20px;
+    background: white;
+    border-radius: 14px;
+    align-items: center;
+}
+
+h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.card-para {
+    font-size: 14px;
+    opacity: 0.8;
+
+}
+
+.forms {
+    background-image: url(../Home/assets/Background/Form-Backcground.png);
+    height: 574px;
+}
+
+.container {
+    height: 100%;
+}
+
+.form-components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.form {
+    width: 50%;
+    height: 474px;
+    width: 464px;
+    background-color: white;
+}
+
+.form-dscription {
+    width: 50%;
+}
+
+.form-section-description {
+    color: white;
+    line-height: 1.8;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+    width: 190px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.forms-row {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.extra-note {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 413px;
+    height: 80px;
+}
+
+.book-now {
+    margin-top: 25px;
+    width: 115px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    background: #07356A;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+}
+
+.forms-rightrow {
+    margin-left: 24px;
+}
+
+.book-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background: #07356A;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us {
+    width: 270px;
+}
+
+h4 {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+span {
+    color: white;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.exp-list {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+.li{
+    margin-bottom: 10px;
+}
+.contact-us {
+    width: 225px;
+}
+.expert-doctors {
+    width: 210px;
+}
+
+.our-services {
+    width: 210px;
+}
+
+.exp-list {
+    color: white;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+h5 {
+    margin: 0;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.font-2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.num{
+    display: flex;
+}
+.arrow{
+    margin-right: 5px;
+}
+.inbox{
+    margin-right: 10px;
+}
+.mail{
+    margin-top: 10px;
+}
+.call{
+    margin-top: 5px;
+}
